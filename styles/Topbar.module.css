@@ -1,0 +1,48 @@
+.topbar_background{
+    background-color: #010101;
+    padding-bottom: 10px;
+
+}
+#lang {
+    border: 2px solid goldenrod;
+    color: goldenrod;
+    background: transparent;
+    outline: none;
+    border-radius: 3px;
+}
+.svg_color{
+    font-size: 18px;
+    fill: goldenrod;
+    margin-bottom: 6px;
+}
+.letf_topbar{
+    color: white;
+    z-index: 1;
+}
+.right_topbar{
+    z-index: 1;
+}
+.icon_circle {
+    border: 1px solid goldenrod;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.topbar_text{
+    margin-left: 5px;
+}
+.hero_background{
+    height: 100vh;
+    background-image: url(../assets/images/desi-food-hero.jpg);
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+}
+.hero_background::after{
+    content: "";
+    background-color: rgba(0, 0, 0,.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0
+}
